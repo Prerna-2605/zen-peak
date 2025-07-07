@@ -2,11 +2,15 @@
 
 @import "tailwindcss";
 
-*{
+* {
   font-family: "Ubuntu", sans-serif;
 }
 
-@theme{
+@theme {
   --font-simple: normal;
   --font-italic: italic;
+}
+
+.swiper-wrapper {
+  align-items: center;
 }
