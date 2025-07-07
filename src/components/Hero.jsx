@@ -1,5 +1,5 @@
 import React from 'react'
-import bgimg from '../assets/png/section1.png'
+import bgimg from '../assets/webp/section1.webp'
 import logo from '../assets/svg/logo.svg'
 import Button from './common/Button'
 
@@ -16,7 +16,7 @@ const Hero = () => {
         <div className='text-center '>
           <Button
             text='Contact Us'
-            className='py-[25px] px-[50px] '
+            className='!text-[20px] py-[25px] px-[50px] '
           />
         </div>
       </div>
