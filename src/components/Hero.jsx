@@ -9,8 +9,8 @@ const Hero = () => {
       <div className="max-w-[1140px] mx-auto px-3 pt-[99px] ">
         <img src={logo} alt="logo" className='mx-auto mb-[28.92px] ' />
 
-        <h1 className='italic font-light text-[75px] text-white leading-[130%] text-center max-w-[1032px] mx-auto mb-10 '>
-          Exploring <span className='font-simple font-bold '>Crypto and Primary</span> Market Strategies
+        <h1 className='font-light text-[75px] text-white leading-[130%] text-center max-w-[1032px] mx-auto mb-10 '>
+          <span className='italic '>Exploring</span> <span className='font-simple font-bold '>Crypto and Primary</span> <span className='italic' >Market Strategies</span>
         </h1>
 
         <div className='text-center '>

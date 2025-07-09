@@ -16,13 +16,13 @@ const AboutUs = () => {
                         />
 
                         <SubHeading
-                            className='mb-[15px] '
+                            className='mb-[15px] text-white '
                             text1='Pioneering Crypto'
-                            class1='font-italic '
+                            class1='italic '
                             text2='and Primary Market'
-                            class2='font-bold font-simple '
+                            class2='font-bold '
                             text3='Ventures'
-                            class3=''
+                            class3='italic '
                         />
 
                         <Description

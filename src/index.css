@@ -6,11 +6,20 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-@theme {
-  --font-simple: normal;
-  --font-italic: italic;
+/* @theme {} */
+
+.companies .swiper-wrapper {
+  align-items: center;
 }
 
-.swiper-wrapper {
-  align-items: center;
+/* .team .swiper-wrapper {
+  gap: 24px;
+} */
+
+.team .swiper-slide.swiper-slide-active {
+  margin-top: 122px;
+}
+
+.team .swiper-slide.swiper-slide-next {
+  margin-top: 58px;
 }

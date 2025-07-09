@@ -6,7 +6,7 @@ import { Company } from '../utils/helper';
 
 const Companies = () => {
     return (
-        <div className='bg-[#F7F3F0] pt-16 pb-[162px] '>
+        <div className='companies bg-[#F7F3F0] pt-16 pb-[162px] '>
             <Swiper
                 modules={[Autoplay]}
                 slidesPerView={5}
