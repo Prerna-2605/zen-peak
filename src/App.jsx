@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs'
 import Companies from './components/Companies'
 import Invest from './components/Invest'
 import Team from './components/Team'
+import Asset from './components/Asset'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Companies />
       <Team />
       <Invest />
+      <Asset />
     </>
   )
 }
