@@ -15,6 +15,8 @@ import profit from '../assets/png/profit.png'
 import risk from '../assets/png/risk.png'
 import kesolute from '../assets/png/kesolute.png'
 
+import { Inquery, Investor, Media, Startup } from './Icons'
+
 export const Company = [
     {
         image: bittoret,
@@ -121,5 +123,28 @@ export const Portfolio = [
         icon: kesolute,
         name: "kesolute investment managers",
         content: "Pulvinar scelerisque viverra at donec nunc orci ullam corper penatibus crasigula praesent dictum fames suscipit nam. Fermentum praesent vel adipiscing eget dictum. Risus id tellus .",
+    }
+];
+
+export const Crypto_World = [
+    {
+        icon:Inquery,
+        name: "General inquiries",
+        mail: "General@gmail.com",
+    },
+    {
+        icon:Investor,
+        name: "Investor relations",
+        mail: "Invetorrelations@gmail.com",
+    },
+    {
+        icon:Startup,
+        name: "Startup founders",
+        mail: "Startup@gmail.com",
+    },
+    {
+        icon:Media,
+        name: "Media and press",
+        mail: "Mediai@gmail.com",
     }
 ];

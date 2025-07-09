@@ -6,7 +6,9 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-/* @theme {} */
+@theme {
+  --shadow-brown: 0px 4px 31.4px 0px #DAAF95;
+}
 
 .companies .swiper-wrapper {
   align-items: center;
