@@ -17,6 +17,10 @@ import kesolute from '../assets/png/kesolute.png'
 
 import { Inquery, Investor, Media, Startup } from './Icons'
 
+import monument from '../assets/svg/monument.svg'
+import telegram from '../assets/svg/telegram.svg'
+import x from '../assets/svg/x.svg'
+
 export const Company = [
     {
         image: bittoret,
@@ -146,5 +150,47 @@ export const Crypto_World = [
         icon:Media,
         name: "Media and press",
         mail: "Mediai@gmail.com",
+    }
+];
+
+export const Nav_Link = [
+    {
+        name: "home",
+        link:"home"
+    },
+    {
+        name: "about us",
+        link: "about"
+    },
+    {
+        name: "team",
+        link: "team"
+    },
+    {
+        name: "portfolio",
+        link: "portfolio"
+    },
+    {
+        name: "fund allocation",
+        link: "allocation"
+    },
+    {
+        name: "contact us",
+        link: "contact"
+    }
+];
+
+export const Footer_links = [
+    {
+        icon:monument,
+        link:"",
+    },
+    {
+        icon:telegram,
+        link: "",
+    },
+    {
+        icon:x,
+        link: "",
     }
 ];

@@ -6,7 +6,7 @@ import circle from '../assets/png/section2.png'
 
 const AboutUs = () => {
     return (
-        <div className='bg-[#A68272] '>
+        <div id='about' className='bg-[#A68272] '>
             <div className='max-w-[1140px] mx-auto px-3 pt-[85px] pb-[62px] '>
                 <div className="flex flex-wrap">
                     <div className="w-1/2 ">

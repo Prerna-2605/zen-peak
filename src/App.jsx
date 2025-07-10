@@ -7,6 +7,7 @@ import Invest from './components/Invest'
 import Team from './components/Team'
 import Asset from './components/Asset'
 import CryptoWorld from './components/CryptoWorld'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Invest />
       <Asset />
       <CryptoWorld />
+      <Footer/>
     </>
   )
 }
