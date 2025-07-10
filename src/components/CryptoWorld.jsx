@@ -6,7 +6,7 @@ import { Crypto_World } from '../utils/helper'
 
 const CryptoWorld = () => {
     return (
-        <div className='bg-[#F7F3F0] pb-[145px] '>
+        <div id='contact' className='bg-[#F7F3F0] pt-[69.5px] pb-[72.5px] '>
             <div>
                 <div className='max-w-[1140px] mx-auto px-3 '>
                     <SubHeading

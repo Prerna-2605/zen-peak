@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 
 const Team = () => {
     return (
-        <div className='team bg-[#F7F3F0] bg-center bg-no-repeat ' style={{ backgroundImage: `url(${bgimg})` }} >
+        <div id='team' className='team bg-[#F7F3F0] bg-center bg-no-repeat pb-[92.5px] ' style={{ backgroundImage: `url(${bgimg})` }} >
             <div className='max-w-[1140px] mx-auto px-3 '>
                 <SubHeading
                     className='!text-[#5A5656] '

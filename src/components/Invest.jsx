@@ -12,8 +12,8 @@ const Invest = () => {
     };
 
     return (
-        <>
-            <div className='bg-[#F7F3F0] bg-center bg-cover bg-no-repeat pt-[185px] ' >
+        <div id='portfolio'>
+            <div className='bg-[#F7F3F0] bg-center bg-cover bg-no-repeat pt-[92.5px] ' >
                 <div className="max-w- mx-auto px-3">
                     <SubHeading
                         className='text-[#5A5656] max-w-[738px] pb-11 text-center mx-auto '
@@ -26,7 +26,7 @@ const Invest = () => {
                     />
                 </div>
             </div>
-            <div className='bg-[#F7F3F0] bg-center bg-cover bg-no-repeat pb-[82px] ' style={{ backgroundImage: `url(${bgimg})` }} >
+            <div className='bg-[#F7F3F0] bg-center bg-cover bg-no-repeat pb-[41px] ' style={{ backgroundImage: `url(${bgimg})` }} >
                 <div className='max-w-[631px] mx-auto py-[21px] px-[25px] bg-[#DFBCA6] border-[3px] border-[#A68272] rounded-[17px] flex flex-col gap-[21px]'>
                     {Portfolio.map((item, index) => {
                         const isOpen = activeIndex === index;
@@ -59,7 +59,7 @@ const Invest = () => {
                     })}
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -5,7 +5,7 @@ import Button from './common/Button'
 
 const Hero = () => {
   return (
-    <div className='bg-cover bg-center bg-no-repeat pb-[650px] ' style={{ backgroundImage: `url(${bgimg})` }}>
+    <div id='home' className='bg-cover bg-center bg-no-repeat pb-[650px] ' style={{ backgroundImage: `url(${bgimg})` }}>
       <div className="max-w-[1140px] mx-auto px-3 pt-[99px] ">
         <img src={logo} alt="logo" className='mx-auto mb-[28.92px] ' />
 

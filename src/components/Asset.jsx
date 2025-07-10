@@ -5,7 +5,7 @@ import Description from './common/Description'
 
 const Asset = () => {
     return (
-        <div className='bg-[#F7F3F0] pb-[139px] '>
+        <div id='allocation' className='bg-[#F7F3F0] pt-[41px] pb-[69.5px] '>
             <div className='max-w-[1140px] mx-auto px-3 py-[45px] rounded-2xl bg-[#A68272] '>
                 <div className='flex flex-wrap items-center '>
                     <div className='w-1/2 flex justify-center '>
