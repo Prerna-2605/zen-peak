@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useEffect} from 'react'
+
 import './App.css'
 import Hero from './components/Hero'
 import AboutUs from './components/AboutUs'
@@ -10,7 +11,6 @@ import CryptoWorld from './components/CryptoWorld'
 import Footer from './components/Footer'
 
 function App() {
-
   return (
     <>
       <Hero />
@@ -20,7 +20,7 @@ function App() {
       <Invest />
       <Asset />
       <CryptoWorld />
-      <Footer/>
+      <Footer />
     </>
   )
 }

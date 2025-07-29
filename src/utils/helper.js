@@ -69,31 +69,37 @@ export const Our_team = [
         image: member1,
         name: "Jhone Doe",
         job: "Co-Founder and CEO",
+        bio:"ZenPeak Capital is a forward-thinking venture firm specializing in innovative investments within the realms of cryptocurrency and primary markets. With a keen eye on emerging trends and disruptive technologies, we are dedicated to identifying and nurturing high-potential opportunities that yield both financial returns and transformative impact.",
     },
     {
         image: member2,
         name: "Jhone Doe",
         job: "Co-Founder and CEO",
+        bio:"ZenPeak Capital is a forward-thinking venture firm specializing in innovative investments within the realms of cryptocurrency and primary markets. With a keen eye on emerging trends and disruptive technologies, we are dedicated to identifying and nurturing high-potential opportunities that yield both financial returns and transformative impact.",
     },
     {
         image: member3,
         name: "Jhone Doe",
         job: "Co-Founder and CEO",
+        bio:"ZenPeak Capital is a forward-thinking venture firm specializing in innovative investments within the realms of cryptocurrency and primary markets. With a keen eye on emerging trends and disruptive technologies, we are dedicated to identifying and nurturing high-potential opportunities that yield both financial returns and transformative impact.",
     },
     {
         image: member1,
         name: "Jhone Doe",
         job: "Co-Founder and CEO",
+        bio:"ZenPeak Capital is a forward-thinking venture firm specializing in innovative investments within the realms of cryptocurrency and primary markets. With a keen eye on emerging trends and disruptive technologies, we are dedicated to identifying and nurturing high-potential opportunities that yield both financial returns and transformative impact.",
     },
     {
         image: member2,
         name: "Jhone Doe",
         job: "Co-Founder and CEO",
+        bio:"ZenPeak Capital is a forward-thinking venture firm specializing in innovative investments within the realms of cryptocurrency and primary markets. With a keen eye on emerging trends and disruptive technologies, we are dedicated to identifying and nurturing high-potential opportunities that yield both financial returns and transformative impact.",
     },
     {
         image: member3,
         name: "Jhone Doe",
         job: "Co-Founder and CEO",
+        bio:"ZenPeak Capital is a forward-thinking venture firm specializing in innovative investments within the realms of cryptocurrency and primary markets. With a keen eye on emerging trends and disruptive technologies, we are dedicated to identifying and nurturing high-potential opportunities that yield both financial returns and transformative impact.",
     }
 ];
 
@@ -183,14 +189,14 @@ export const Nav_Link = [
 export const Footer_links = [
     {
         icon:monument,
-        link:"",
+        link:"http://monumentagent.com/",
     },
     {
         icon:telegram,
-        link: "",
+        link: "https://telegram.org/",
     },
     {
         icon:x,
-        link: "",
+        link: "https://twitter.com/",
     }
 ];
